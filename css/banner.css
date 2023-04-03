@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button {
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 50px;
+}
+
+.banner .bg {
+    position: absolute;
+    top: -1300px;
+    left: -500px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+ul li {
+    margin: 10px 20px;
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+ul li a:hover {
+    text-decoration: underline 1px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+nav .btns {
+    position: absolute;
+    right: 100px;
+}
+
+.btns button {
+    transition: 0.5s;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+#login {
+    font-size: 16.5px;
+    background-color: inherit;
+    color: white;
+}
+
+:root {
+    --main-color: hsl(356, 100%, 66%);
+}
+
+#singup {
+    padding: 10px 27px;
+    color: var(--main-color);
+    border-radius: 17px;
+    font-weight: 500;
+}
+
+#singup:hover,#start:hover {
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 40px;
+    padding: 15px;
+    font-weight: 500;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main p {
+    padding-bottom: 20px;
+
+}
+
+.main .btns button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#start {
+    background-color: rgb(255, 255, 255);
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+#learn {
+    background-color: initial;
+    border: 1px solid white;
+    color: white;
+}
+
+#learn:hover {
+    background-color: white;
+    color: var(--main-color);
+}

@@ -1,0 +1,131 @@
+/* mobile */
+
+/* banner */
+/* nav */
+
+.mobile-nav {
+    position:absolute;
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+    top: 10%;
+    left: 2.5%;
+    border-radius: 5px;
+    display: none;
+}
+
+.mobile-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav ul {
+    position: relative;
+    top: 30px;
+}
+
+.mobile-nav li {
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-nav li a {
+    text-align: center;
+    color: hsl(237, 17%, 21%);
+    font-size: 23px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.outer {
+    margin: 10px;
+    display: none;
+}
+
+.outer i {
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.outer .logo {
+    position: absolute;
+    left: 0;
+}
+
+.future-svg-mobile {
+    display: none;
+}
+
+.future-svg-desk {
+    display: flex;
+}
+
+@media only screen and (max-width: 475px) {
+    /* .mobile-nav {
+        display: block;
+    } */
+
+    .outer {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* future */
+    .future {
+        display: block;
+    }
+
+    .future-svg-mobile {
+        display: block;
+        position: relative;
+        left: 25%;
+        bottom: 100px;
+        /* margin: 30px 0; */
+    }
+
+    .future-svg-desk {
+        display: none;
+    }
+
+    .future article {
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 55%;
+        right: 0;
+    }
+
+    /* phones */
+    .phones {
+        position: relative;
+        display: block;
+        height: 800px;
+    }
+
+    .phones .back-svg {
+        position: absolute;
+        /* top: 50px; */
+    }
+
+    .phones .phones-svg {
+        position: relative;
+    }
+
+    .phones article {
+        position: relative;
+        left: 1.5%;
+        bottom: 250px;
+        width: 95%;
+        text-align: center;
+    }
+
+}
